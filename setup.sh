@@ -130,5 +130,6 @@ echo "---------Script Created By Jhoy PROJECT----------" | tee -a log-install.tx
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
+rm -rf badvpn-master
 rm -f setup.sh
 reboot
