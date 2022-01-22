@@ -5,7 +5,7 @@ else
 domin=$(cat /root/domain)
 fi
 
-wget -O /etc/nginx/sites-enabled/wildcard_subdomain "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/wildcard_subdomain"
+mkdir -p /etc/nginx/sites-enabled/
 cat > /etc/nginx/sites-enabled/wildcard_subdomain << END
 server {
     server_name *.${domin};
