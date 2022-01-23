@@ -331,7 +331,7 @@ wget -O port-sstp "https://raw.githubusercontent.com/liuuufey/sc-noip/main/port-
 wget -O port-squid "https://raw.githubusercontent.com/liuuufey/sc-noip/main/port-squid.sh"
 wget -O port-ws "https://raw.githubusercontent.com/liuuufey/sc-noip/main/port-ws.sh"
 wget -O port-vless "https://raw.githubusercontent.com/liuuufey/sc-noip/main/port-vless.sh"
-wget -O port-sslh "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/port-sslh.sh"
+wget -O port-sslh "https://raw.githubusercontent.com/liuuufey/sc-noip/main/port-sslh.sh"
 wget -O wbmn "https://raw.githubusercontent.com/liuuufey/sc-noip/main/webmin.sh"
 wget -O xp "https://raw.githubusercontent.com/liuuufey/sc-noip/main/xp.sh"
 wget -O swap "https://raw.githubusercontent.com/liuuufey/sc-noip/main/swapkvm.sh"
