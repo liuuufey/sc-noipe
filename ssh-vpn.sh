@@ -331,7 +331,7 @@ wget -O port-sstp "https://raw.githubusercontent.com/liuuufey/sc-noip/main/port-
 wget -O port-squid "https://raw.githubusercontent.com/liuuufey/sc-noip/main/port-squid.sh"
 wget -O port-ws "https://raw.githubusercontent.com/liuuufey/sc-noip/main/port-ws.sh"
 wget -O port-vless "https://raw.githubusercontent.com/liuuufey/sc-noip/main/port-vless.sh"
-wget -O port-sslh "https://raw.githubusercontent.com/liuuufey/sc-noip/main/port-sslh.sh"
+wget -O port-sslh "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/port-sslh.sh"
 wget -O wbmn "https://raw.githubusercontent.com/liuuufey/sc-noip/main/webmin.sh"
 wget -O xp "https://raw.githubusercontent.com/liuuufey/sc-noip/main/xp.sh"
 wget -O swap "https://raw.githubusercontent.com/liuuufey/sc-noip/main/swapkvm.sh"
@@ -353,6 +353,7 @@ wget "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/del-trgo"
 wget "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/cek-trgo"
 wget "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/renew-trgo"
 wget -O xp-trgo "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/xp-trgo.sh"
+wget -O log-ws "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/log-ws.sh"
 chmod +x add-host
 chmod +x usernew
 chmod +x trial
@@ -404,6 +405,7 @@ dos2unix del-trgo
 dos2unix cek-trgo
 dos2unix renew-trgo
 chmod +x xp-trgo
+chmod +x log-ws
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 echo "0 0 * * * root xp-trgo" >> /etc/crontab
