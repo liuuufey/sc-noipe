@@ -48,4 +48,3 @@ echo -e "\e[032;1mPort $sslh2 modified successfully\e[0m"
 else
 echo "Port $sslh2 is used"
 fi
-
