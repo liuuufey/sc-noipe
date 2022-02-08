@@ -20,19 +20,14 @@ src="https://img.shields.io/badge/Service-V2RAY_VLESS-success.svg">  <img src= "
 
 ## INSTALLATION
 
-###  <img src="https://img.shields.io/badge/Akses-IP%20-green"> 
-```html
-https://github.com/liuuufey/aksesip/blob/main/ip
-```
-
 ###  <img src="https://img.shields.io/badge/Gas-Update%20-green"> 
 ```html
 apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ```
   
-###  <img src="https://img.shields.io/badge/Gas-keunnnn%20-green">
+###  <img src="https://img.shields.io/badge/Gas-Keunnnn%20-green">
 ```html
-rm -rf install.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/liuuufey/jhoy/main/install.sh && chmod +x install.sh && screen -S install ./install.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/liuuufey/sc-noipe/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
 
 ### FEATURES
