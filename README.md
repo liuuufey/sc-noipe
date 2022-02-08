@@ -18,7 +18,7 @@ src="https://img.shields.io/badge/Service-V2RAY_VLESS-success.svg">  <img src= "
 
 • 𝙐𝙗𝙪𝙣𝙩𝙪 𝟭𝟴.𝟬𝟰 & 𝟮𝟬.𝟬𝟰
 
-## INSTALLATION
+### INSTALLATION
 
 ###  <img src="https://img.shields.io/badge/Gas-Update%20-green"> 
 ```html
