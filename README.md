@@ -139,7 +139,7 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 • 𝙒𝙝𝙞𝙩𝙚 𝙇𝙖𝙗𝙚𝙡
 
 <h2 align="center">
-<img src="https://img.shields.io/badge/Version-2.0.0-blue.svg"></h2>
+<img src="https://img.shields.io/badge/Version-3.0.0-blue.svg"></h2>
 <h2 align="center">  <img src="https://img.shields.io/badge/Dev-Main%20-green">                  <img src="https://img.shields.io/badge/Jhoy Project-blue.svg"></h2>
 
 ### Contact Uing
