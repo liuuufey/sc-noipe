@@ -354,7 +354,6 @@ wget "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/cek-trgo"
 wget "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/renew-trgo"
 wget -O xp-trgo "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/xp-trgo.sh"
 wget -O log-ws "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/log-ws.sh"
-wget -O ins-socks5 "https://raw.githubusercontent.com/liuuufey/socks5/main/ins-socks5.sh" && chmod +x ins-socks5
 chmod +x add-host
 chmod +x usernew
 chmod +x trial
