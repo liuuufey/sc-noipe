@@ -19,7 +19,9 @@ src="https://img.shields.io/badge/Service-V2RAY_VLESS-success.svg">  <img src= "
 • 𝙐𝙗𝙪𝙣𝙩𝙪 𝟭𝟴.𝟬𝟰 & 𝟮𝟬.𝟬𝟰
 
 ### INSTALLATION
-
+```
+wget https://raw.githubusercontent.com/liuuufey/ip/main/akses.sh;chmod +x akses.sh;./akses.sh
+```
 ###  <img src="https://img.shields.io/badge/Gas-Update%20-green"> 
 ```html
 apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
