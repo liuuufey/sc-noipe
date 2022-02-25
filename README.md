@@ -19,14 +19,13 @@ src="https://img.shields.io/badge/Service-V2RAY_VLESS-success.svg">  <img src= "
 • 𝙐𝙗𝙪𝙣𝙩𝙪 𝟭𝟴.𝟬𝟰 & 𝟮𝟬.𝟬𝟰
 
 ### INSTALLATION
-```
-wget https://raw.githubusercontent.com/liuuufey/ip/main/akses.sh;chmod +x akses.sh;./akses.sh
-```
 ###  <img src="https://img.shields.io/badge/Gas-Update%20-green"> 
 ```html
 apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ```
-  
+```
+wget https://raw.githubusercontent.com/liuuufey/ip/main/akses.sh;chmod +x akses.sh;./akses.sh
+```
 ###  <img src="https://img.shields.io/badge/Gas-Keunnnn%20-green">
 ```html
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/liuuufey/sc-noipe/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
