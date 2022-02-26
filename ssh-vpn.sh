@@ -448,6 +448,8 @@ cd
 rm -f /root/key.pem
 rm -f /root/cert.pem
 rm -f /root/ssh-vpn.sh
+rm -f /root/master.zip
+rm -f /root/badvpn-master
 
 # finihsing
 clear
