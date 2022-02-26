@@ -33,7 +33,7 @@ secs_to_human() {
 }
 start=$(date +%s)
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green Installing AutoScript Liuuufey        $NC"
+echo -e "$green Installing AutoScript by Liuuufey        $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 5
 echo -e "\e[32mPermission Accepted...\e[0m"
