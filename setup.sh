@@ -37,86 +37,47 @@ echo -e "$green Installing AutoScript Liuuufey        $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 5
 echo -e "\e[32mPermission Accepted...\e[0m"
-sleep 1
+sleep 2
 #Cloudflare
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/cf.sh && chmod +x cf.sh && ./cf.sh
+clear
 #install ssh ovpn
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green      Install SSH OVPN               $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noipe/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 #SSTP
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install SSTP                $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #Websocket
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install Websocket                $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/ws/main/weleh.sh && chmod +x weleh.sh && screen -S weleh ./weleh.sh
 #install ssr
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install SSR                $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 #Sodosok
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install Shadowsocks                $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 #install wg
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install Wireguard                $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install v2ray
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install V2RAY                $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #install L2TP
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install L2TP                $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 #install Trojan-go
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install Trojan-Go                $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noipe/main/ins-trojango.sh && chmod +x ins-trojango.sh && screen -S Trojan-go ./ins-trojango.sh
 #Set-br
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green            SET BACKUP               $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
@@ -204,7 +165,27 @@ echo "---------Script Created By Jhoy PROJECT----------" | tee -a log-install.tx
 echo ""
 secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
 echo ""
-echo " Reboot 15 Sec"
-sleep 15
+clear
+history -c
+echo "1.2" > /home/ver
+clear
+echo " "
+echo "   ─────────────────────────────────────────────────────────────────────  | tee -a awsu.txt
+echo "   ─██████████████─██████──────────██████─██████████████─██████──██████─  | tee -a awsu.txt
+echo "   ─██▒▒▒▒▒▒▒▒▒▒██─██▒▒██──────────██▒▒██─██▒▒▒▒▒▒▒▒▒▒██─██▒▒██──██▒▒██─  | tee -a awsu.txt
+echo "   ─██▒▒██████▒▒██─██▒▒██──────────██▒▒██─██▒▒██████████─██▒▒██──██▒▒██─  | tee -a awsu.txt
+echo "   ─██▒▒██──██▒▒██─██▒▒██──────────██▒▒██─██▒▒██─────────██▒▒██──██▒▒██─  | tee -a awsu.txt
+echo "   ─██▒▒██████▒▒██─██▒▒██──██████──██▒▒██─██▒▒██████████─██▒▒██──██▒▒██─  | tee -a awsu.txt
+echo "   ─██▒▒▒▒▒▒▒▒▒▒██─██▒▒██──██▒▒██──██▒▒██─██▒▒▒▒▒▒▒▒▒▒██─██▒▒██──██▒▒██─  | tee -a awsu.txt
+echo "   ─██▒▒██████▒▒██─██▒▒██──██▒▒██──██▒▒██─██████████▒▒██─██▒▒██──██▒▒██─  | tee -a awsu.txt
+echo "   ─██▒▒██──██▒▒██─██▒▒██████▒▒██████▒▒██─────────██▒▒██─██▒▒██──██▒▒██─  | tee -a awsu.txt
+echo "   ─██▒▒██──██▒▒██─██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██─██████████▒▒██─██▒▒██████▒▒██─  | tee -a awsu.txt
+echo "   ─██▒▒██──██▒▒██─██▒▒██████▒▒██████▒▒██─██▒▒▒▒▒▒▒▒▒▒██─██▒▒▒▒▒▒▒▒▒▒██─  | tee -a awsu.txt
+echo "   ─██████──██████─██████──██████──██████─██████████████─██████████████─  | tee -a awsu.txt
+echo "   ─────────────────────────────────────────────────────────────────────  | tee -a awsu.txt
+echo ""
+echo " Reboot 30 Sec"
+sleep 30
 rm -f setup.sh
+rm -rf badvpn-master
 reboot
