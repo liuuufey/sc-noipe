@@ -222,6 +222,7 @@ apt-get install sslh -y
 wget -O /etc/default/sslh "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/sslh.conf"
 service sslh restart
 
+#privoxy
 apt -y install privoxy
 rm /etc/privoxy/config
 wget -O /etc/privoxy/config "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/config"
