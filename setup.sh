@@ -45,42 +45,52 @@ clear
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noipe/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+clear
 #SSTP
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+clear
 #Websocket
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/ws/main/weleh.sh && chmod +x weleh.sh && screen -S weleh ./weleh.sh
+clear
 #install ssr
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+clear
 #Sodosok
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+clear
 #install wg
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+clear
 #install v2ray
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+clear
 #install L2TP
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+clear
 #install Trojan-go
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noipe/main/ins-trojango.sh && chmod +x ins-trojango.sh && screen -S Trojan-go ./ins-trojango.sh
+clear
 #Set-br
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
 wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+clear
 
 rm -f /root/cf.sh
 rm -f /root/ssh-vpn.sh
@@ -165,27 +175,8 @@ echo "---------Script Created By Jhoy PROJECT----------" | tee -a log-install.tx
 echo ""
 secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
 echo ""
-clear
-history -c
-echo "1.2" > /home/ver
-clear
-echo " "
-echo "   ─────────────────────────────────────────────────────────────────────  | tee -a awsu.txt
-echo "   ─██████████████─██████──────────██████─██████████████─██████──██████─  | tee -a awsu.txt
-echo "   ─██▒▒▒▒▒▒▒▒▒▒██─██▒▒██──────────██▒▒██─██▒▒▒▒▒▒▒▒▒▒██─██▒▒██──██▒▒██─  | tee -a awsu.txt
-echo "   ─██▒▒██████▒▒██─██▒▒██──────────██▒▒██─██▒▒██████████─██▒▒██──██▒▒██─  | tee -a awsu.txt
-echo "   ─██▒▒██──██▒▒██─██▒▒██──────────██▒▒██─██▒▒██─────────██▒▒██──██▒▒██─  | tee -a awsu.txt
-echo "   ─██▒▒██████▒▒██─██▒▒██──██████──██▒▒██─██▒▒██████████─██▒▒██──██▒▒██─  | tee -a awsu.txt
-echo "   ─██▒▒▒▒▒▒▒▒▒▒██─██▒▒██──██▒▒██──██▒▒██─██▒▒▒▒▒▒▒▒▒▒██─██▒▒██──██▒▒██─  | tee -a awsu.txt
-echo "   ─██▒▒██████▒▒██─██▒▒██──██▒▒██──██▒▒██─██████████▒▒██─██▒▒██──██▒▒██─  | tee -a awsu.txt
-echo "   ─██▒▒██──██▒▒██─██▒▒██████▒▒██████▒▒██─────────██▒▒██─██▒▒██──██▒▒██─  | tee -a awsu.txt
-echo "   ─██▒▒██──██▒▒██─██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██─██████████▒▒██─██▒▒██████▒▒██─  | tee -a awsu.txt
-echo "   ─██▒▒██──██▒▒██─██▒▒██████▒▒██████▒▒██─██▒▒▒▒▒▒▒▒▒▒██─██▒▒▒▒▒▒▒▒▒▒██─  | tee -a awsu.txt
-echo "   ─██████──██████─██████──██████──██████─██████████████─██████████████─  | tee -a awsu.txt
-echo "   ─────────────────────────────────────────────────────────────────────  | tee -a awsu.txt
-echo ""
-echo " Reboot 30 Sec"
-sleep 30
+echo " Reboot 15 Sec"
+sleep 15
 rm -f setup.sh
 rm -rf badvpn-master
 reboot
