@@ -47,7 +47,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
-wget https://manehjore.eu.org/tes/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/liuuufey/sc-noipe/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 #SSTP
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install SSTP                $NC"
@@ -95,7 +95,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 3
 echo -e "\e[32mPermission Accepted...\e[0m"
 sleep 1
-wget https://manehjore.eu.org/tes/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/liuuufey/sc-noip/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #install L2TP
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install L2TP                $NC"
