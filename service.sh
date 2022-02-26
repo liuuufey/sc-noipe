@@ -27,7 +27,7 @@ echo -e " Squid             : Squid Service is "$green"running"$NC""
 else                                                                                    
 echo -e " Squid             : Squid Service is "$red"not running (Error)"$NC""      
 fi            
-status="$(systemctl show stunnel5.service --no-page)"                                   
+status="$(systemctl show stunnel4.service --no-page)"                                   
 status_text=$(echo "${status}" | grep 'ActiveState=' | cut -f2 -d=)                     
 if [ "${status_text}" == "active" ]                                                     
 then                                                                                    
@@ -194,6 +194,14 @@ then
 echo -e " Vnstat            : Vnstat Service is "$green"running"$NC""                
 else                                                                                    
 echo -e " Vnstat            : Vnstat Service is "$red"not running (Error)"$NC""      
+fi
+status="$(systemctl show privoxy.service --no-page)"                                      
+status_text=$(echo "${status}" | grep 'ActiveState=' | cut -f2 -d=)                     
+if [ "${status_text}" == "active" ]                                                     
+then                                                                                    
+echo -e " Privoxy           : Privoxy Service is "$green"running"$NC""                
+else                                                                                    
+echo -e " Privoxy           : Privoxy Service is "$red"not running (Error)"$NC""      
 fi
 status="$(systemctl show fail2ban.service --no-page)"                                      
 status_text=$(echo "${status}" | grep 'ActiveState=' | cut -f2 -d=)                     
