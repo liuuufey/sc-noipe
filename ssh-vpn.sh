@@ -222,6 +222,10 @@ apt-get install sslh -y
 wget -O /etc/default/sslh "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/sslh.conf"
 service sslh restart
 
+apt -y install privoxy
+rm /etc/privoxy/config
+wget -O /etc/privoxy/config "https://raw.githubusercontent.com/liuuufey/sc-noipe/main/config"
+service privoxy restart
 
 #install badvpncdn
 wget https://github.com/ambrop72/badvpn/archive/master.zip
