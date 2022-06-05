@@ -20,7 +20,6 @@ echo -e "${red}Permission Denied!${NC}";
 echo "Only For Premium Users"
 exit 0
 fi
-rm -rf setup.sh
 clear
 if [ -f "/etc/v2ray/domain" ]; then
 echo "Script Already Installed"
